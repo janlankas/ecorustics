@@ -1,0 +1,150 @@
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  padding-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h5 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  color: grey;
+}
+
+/* Carousel Title */
+.carousel-caption {
+  margin-bottom: 20%;
+  padding: 50px 100px;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+}
+
+.drk {
+  text-align: center;
+}
+
+.drk:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.5;
+}
+
+.btn-dark {
+  margin-top: 60px;
+}
+
+.btn {
+  margin-top: 100px;
+}
+
+/* Recommended experiences */
+#blog-post-section {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.widget-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #9a8d73;
+}
+
+.exp-title {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 5px;
+}
+
+.blog-img {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.col {
+  margin-bottom: 100px;
+}
+
+.btn-lg {
+  margin: 0;
+}
+
+/* Counter */
+#counter {
+  background-color: #333333;
+  text-align: center;
+  padding: 2%
+}
+
+.count {
+  font-size: 40px;
+  padding: 15px 50px;
+  font-weight: 700;
+}
+
+.name {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  padding: 15px 50px 5px;
+  font-weight: 700;
+}
+
+/* Discover Section */
+#Discover {
+  text-align: center;
+  padding: 10% 10%;
+}
+
+.disc-img {
+  width: 290px;
+  height: 200px;
+  margin: 20px;
+}
+
+.disc-title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.Main-D-Title {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Nothing You Could Do', cursive;
+  margin-bottom: 20px;
+}
+
+
+/* Footer */
+#footer {
+  text-align: center;
+  background-color: #333333;
+  padding: 3% 3% 1%;
+
+}
+
+.brand-name-footer {
+  font-weight: bold;
+  color: grey;
+}
+
+.footer-icons {
+  margin: 10px;
+  color: grey;
+}
