@@ -45,7 +45,7 @@ a:hover {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.7) !important;
     color: white;
     padding: 1rem 0;
 }
@@ -95,8 +95,8 @@ a:hover {
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
-    right: 1rem;
+    top: 2rem;
+    right: 2.5rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -161,12 +161,20 @@ a:hover {
 
 .carousel-caption h1 {
   font-size: 4.5rem;
-  margin-bottom: 50px;
+  margin: 0 auto 3rem;
 }
 @media (max-width: 1028px) {
   .carousel-caption h1 {
     font-size: 3rem;
   }
+  .carousel-item {
+    height: 700px;
+  }
+  .experience-image {
+    position: absolute;
+    left: 15%;
+  }
+
 }
 
 
@@ -182,7 +190,9 @@ a:hover {
   font-weight: 700;
   color: #9a8d73;
 }
-
+.experience {
+  justify-content: center;
+}
 .exp-title {
   font-size: 22px;
   font-weight: 700;
@@ -333,6 +343,13 @@ a:hover {
 @media (max-width: 1300px) {
   #discover {
     padding: 10% 7%;
+  }
+}
+
+@media (max-width: 1028px) {
+  .disc-img {
+    position: absolute;
+    left: 15%;
   }
 }
 /* Footer */
